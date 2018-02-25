@@ -18,4 +18,22 @@
 <name>aliyun maven</name>
 <url>http://maven.aliyun.com/nexus/content/groups/public</url>
 <mirrorOf>central</mirrorOf>
-</mirror>
+</mirror>
+```
+# 注册Apple ID 账号
+
+
+
+84796656@qq.com/Chenhr2018$
+
+apple id 的密码问题：
+小年时找最好的朋友： 小王恺
+理想的工作： 人民教师
+第一个上司叫什么名字：陈寒冰
+
+154237462@qq.com/Chenhj2018$
+少年时找最好的朋友叫什么名字：奥特曼
+理想的工作：科学家
+第一个上司叫什么名字：刘一文
+
+
