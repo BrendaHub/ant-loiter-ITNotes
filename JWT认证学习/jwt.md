@@ -98,4 +98,17 @@ fetch('api/user/1', {
 ```
 服务端会验证token, 如果验证通过就会返回相应的资源。 整个流程就这样的：
 
+![jwt请求的流程图](https://raw.githubusercontent.com/BrendaHub/ant-loiter-ITNotes/master/resource/1821058-2e28fe6c997a60c9.png)
 
+# 总结 
+
+## 优点
+- 因为json的通用性， 所以JWT是可以进行跨语言支持的，像JAVA， JavaScript,NodeJS,PHP等很多语言都可以使用。
+- 因为有了PayLoad部分， 所以JWT可以在自身存储一些其他业务逻辑所必要的非敏感信息。 
+- 便于传输， jwt的构成非常简单， 字节占用很小， 所以它是非常便于传输的。 
+- 它不需要在服务端保存会话信息， 所以字易于应用扩展
+
+## 安全相关
+- 不应该在jwt的payload部分存放敏感信息， 因为孩部分是客户端可以解密的部分。
+- 保护好secret私钥， 该私钥非常重要
+- 如果可以， 使用https协议
